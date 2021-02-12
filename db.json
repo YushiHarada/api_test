@@ -1,9 +1,38 @@
 {
-  "drivers": [
-	{"id":"1234abcde", "office_id": "officeid1234", "name": "乗務 太郎", "driver_code": "1234567890"},
-	{"id":"5678fghij", "office_id": "officeid1234", "name": "乗務 次郎", "driver_code": "0987654321"}
-  ],
-  "status_closed": [
-	{"sender_name": "test_sender.drivers", "text": "状態変更結果", "id": "1234abcde", "type": "FUNCTION", "seq": "ACCEPT", "actions": [{"text": "機能ID", "type": "ID"}]}
-  ]
+	"drivers": [
+		{
+			"id": "1234abcde",
+			"office_id": "officeid1234",
+			"name": "乗務 太郎",
+			"driver_code": "1234567890"
+		},
+		{
+			"id": "5678fghij",
+			"office_id": "officeid1234",
+			"name": "乗務 次郎",
+			"driver_code": "0987654321"
+		}
+	],
+	"drivers_failed": [],
+	"status_closed": {
+		"sender_name": "test_sender.centers",
+		"text": "状態変更結果",
+		"id": "1234abcde",
+		"type": "FUNCTION",
+		"seq": "ACCEPT",
+		"actions": [
+			{
+				"text": "機能ID",
+				"type": "ID"
+			}
+		]
+	},
+	"status_closed_failed": {
+		"sender_name": "test_sender.centers",
+		"text": "状態変更結果",
+		"id": "1234abcde",
+		"type": "FUNCTION",
+		"seq": "REJECT",
+		"actions": []
+	}
 }
