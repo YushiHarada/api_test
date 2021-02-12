@@ -4,6 +4,6 @@
 	{"id":"5678fghij", "office_id": "officeid1234", "name": "乗務 次郎", "driver_code": "0987654321"}
   ],
   "status_closed": [
-	{"sender_name": "test_sender.drivers", "text": "状態変更結果", "callback_id": "1234abcde", "type": "FUNCTION", "seq": "ACCEPT", "actions": [{"text": "機能ID", "type": "ID"}]}
+	{"sender_name": "test_sender.drivers", "text": "状態変更結果", "id": "1234abcde", "type": "FUNCTION", "seq": "ACCEPT", "actions": [{"text": "機能ID", "type": "ID"}]}
   ]
 }
